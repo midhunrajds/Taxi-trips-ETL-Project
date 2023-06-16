@@ -169,6 +169,8 @@ To use Mage from a VM instance:
    - Apply filters, aggregations, calculations, and other data manipulations for analysis.
    - Create visualizations, dashboards, and reports to present the analyzed data.
 
+![Tableau Dashboard](assets/Dashboard%201.png)
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
