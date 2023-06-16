@@ -139,9 +139,9 @@ To use Mage from a VM instance:
 ![magecompleted](assets/bigquery1.png)
 
 ### Codes:
-- [Extract](./Code/mage_load.py)
-- [Transform](./Code/mage-transfrom.py)
-- [Load](./Code/mage-export.py)
+- [Extract](./Codes/mage_load.py)
+- [Transform](./Codes/mage-transfrom.py)
+- [Load](./Codes/mage-export.py)
 
 
 # Accessing and Analyzing Data from BigQuery using Tableau
