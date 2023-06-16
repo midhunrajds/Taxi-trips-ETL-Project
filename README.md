@@ -1,14 +1,13 @@
 # Index
 
 - [Taxi-trips - ETL Project](#taxi-trips---etl-project)
-- [Uber Data Analytics Project](#uber-data-analytics-project)
 - [Dataset](#dataset)
 - [Project Overview](#project-overview)
-- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Creating Data Model using Lucid Chart](#creating-data-model-using-lucid-chart)
 - [Setting up Google Cloud Platform (GCP) Storage and Compute Instance](#setting-up-google-cloud-platform-gcp-storage-and-compute-instance)
 - [Steps to Use Mage Data Pipeline Tool](#steps-to-use-mage-data-pipeline-tool)
+- [Python Codes ETL](#codes)
 - [Accessing and Analyzing Data from BigQuery using Tableau](#accessing-and-analyzing-data-from-bigquery-using-tableau)
 - [License](#license)
 
@@ -44,9 +43,6 @@ The project involves the following steps:
 
 6. **Data Analysis with Tableau**: Use Tableau, a data visualization tool, to connect to the BigQuery dataset and create reports and visualizations for analyzing the Uber data.
 
-## Project Structure
-
-<!-- Add project structure here -->
 
 ## Getting Started
 
@@ -76,6 +72,9 @@ To set up the project and reproduce the analysis, please follow the instructions
    - Define the type of relationship (one-to-one, one-to-many, many-to-many) by adding crow's foot notation or other symbols.
    - Add relationship names or labels if necessary.
 
+![Data Model](assets/Uber%20Data%20Model.png)
+
+
 ## Setting up Google Cloud Platform (GCP) Storage and Compute Instance
 
 1. **GCP Storage Setup**:
@@ -95,10 +94,12 @@ To set up the project and reproduce the analysis, please follow the instructions
    - Review the configuration and click on "Create" to create the Compute Engine instance.
    - Once the instance is created, connect to it using SSH or other remote access methods.
 
+![VM](assets/vminstance.png)
+
 ## Steps to Use Mage Data Pipeline Tool
 
 To use Mage from a VM instance:
-
+![MageAccess](assets/mageaccess.png)
 1. **Start Mage Project**:
    - Start the VM instance and ensure that it has access to the internet.
    - Open a terminal or SSH into the VM instance.
@@ -127,10 +128,21 @@ To use Mage from a VM instance:
    - Use the Mage interface to execute the necessary commands to initiate the data loading/exporting process to BigQuery.
    - Monitor the progress and logs to ensure the successful completion of the operation.
 
+![mage1](assets/mage1.png)
+![completed](assets/etlcomp.png)
+
 6. **Confirmation**:
    - Once the data loading/exporting process is complete, navigate to the BigQuery console on the GCP platform.
    - Confirm that the data has been loaded/exported correctly by querying the respective BigQuery tables or inspecting the data in the console.
    - Perform any necessary data validation or quality checks to ensure the accuracy and integrity of the loaded/exported data.
+
+![magecompleted](assets/bigquery1.png)
+
+### Codes:
+- [Extract](./Code/mage_load.py)
+- [Transform](./Code/mage-transfrom.py)
+- [Load](./Code/mage-export.py)
+
 
 # Accessing and Analyzing Data from BigQuery using Tableau
 
@@ -149,6 +161,8 @@ To use Mage from a VM instance:
    - Drag and drop the necessary tables onto the canvas.
    - Define table relations by clicking and dragging columns between related tables.
    - Verify that the table relations are correctly established.
+
+![Tableau Import](assets/tableau1.png)
 
 4. **Analyze Data**:
    - Use Tableau's drag-and-drop interface to select dimensions, measures, and desired visualizations.
