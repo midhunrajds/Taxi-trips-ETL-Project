@@ -12,7 +12,7 @@ This project analyzes Uber data using various tools and technologies, including 
 
 The dataset used in this project is the TLC Trip Record Data, which can be found on the [NYC TLC Trip Record Data website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The data dictionary for the trip records can be accessed [here](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf).
 
-Dataset Location: [Uber Dataset](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
+Dataset Location: [Uber Dataset](https://github.com/midhunrajds/taxi-trips--etl-project/main/data/uber_data.csv)
 
 ## Project Overview
 
