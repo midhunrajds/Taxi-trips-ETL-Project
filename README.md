@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Index
 
 - [Taxi-trips - ETL Project](#taxi-trips---etl-project)
@@ -74,6 +75,7 @@ To set up the project and reproduce the analysis, please follow the instructions
 
 ![Data Model](assets/Uber%20Data%20Model.png)
 
+[Go back to top](#top)
 
 ## Setting up Google Cloud Platform (GCP) Storage and Compute Instance
 
@@ -131,6 +133,8 @@ To use Mage from a VM instance:
 ![mage1](assets/mage1.png)
 ![completed](assets/etlcomp.png)
 
+[Go back to top](#top)
+
 6. **Confirmation**:
    - Once the data loading/exporting process is complete, navigate to the BigQuery console on the GCP platform.
    - Confirm that the data has been loaded/exported correctly by querying the respective BigQuery tables or inspecting the data in the console.
@@ -174,3 +178,5 @@ To use Mage from a VM instance:
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+[Go back to top](#top)
