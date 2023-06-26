@@ -93,8 +93,8 @@ To set up the project and reproduce the analysis, please follow the instructions
    - Provide a name for the instance, select the desired region and zone, and configure other settings such as machine type, boot disk, network settings, etc.
    - Used 4 x CPU, 16 GB Memory EC2 series for this project.
    - Choose the appropriate access and security settings, including SSH key management for remote access to the instance.
-   - Review the configuration and click on "Create" to create the Compute Engine instance.
-   - Once the instance is created, connect to it using SSH or other remote access methods.
+   - "Create" to create the Compute Engine instance.
+   - Once the instance is created, connect to it using SSH.
 
 ![VM](assets/vminstance.png)
 
